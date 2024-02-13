@@ -15,5 +15,10 @@ function setup(params) {
 // função que desenha os elementos
 function draw(params) {
     
-    setup();
+    canvasCtx.fillStyle = "#286047";
+    canvasCtx.fillRect(0 , 0 , window.innerWidth, window.innerHeight);
+
 }
+
+setup();
+draw();
